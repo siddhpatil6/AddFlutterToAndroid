@@ -1,0 +1,5 @@
+
+rootProject.name = 'root'
+
+include 'sub'
+project(':sub').projectDir = file('.sub')
